@@ -24,7 +24,7 @@ Projet d'infrastructure et réseau réalisé par deux bachelors informatiques en
     - Tailwind
 - back :
     - Golang
-    - Youtube-dl
+    - [Youtube-dl](https://github.com/ytdl-org/youtube-dl)
 - Docker
 ### Deuxième application:
 #### Weather app
@@ -36,5 +36,4 @@ Projet d'infrastructure et réseau réalisé par deux bachelors informatiques en
     - Flask
 
 ## LoadBalancer:
-- Kemp
-    
+- [Kemp](https://freeloadbalancer.com)
