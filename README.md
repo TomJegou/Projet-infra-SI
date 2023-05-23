@@ -9,8 +9,6 @@ Projet d'infrastructure et réseau réalisé par deux bachelors informatiques en
 ## Application
 * Application 1 : Youtube Downloader qui télecharge des musique en mp3 fait avec golang.
 * Application 2 : Weather App est une simple application de météo fait avec flask.
-## Caractéristiques techniques
-
 ## Technologies et outils utilisées
 ### Première application:
 #### Youtube Converter
@@ -33,3 +31,8 @@ Projet d'infrastructure et réseau réalisé par deux bachelors informatiques en
     - Flask
 ## LoadBalancer:
 - [Kemp](https://freeloadbalancer.com)
+
+## Virtualisation:
+- Virtual Box
+- Ubuntu
+## Caractéristiques techniques
