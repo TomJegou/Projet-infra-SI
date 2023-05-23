@@ -5,22 +5,36 @@ Projet d'infrastructure et réseau réalisé par deux bachelors informatiques en
 
 ## Objectifs
 * Monter un server web sur lequel 2 applications web doivent s'exécuter
-* Devoir y accéder via des sous-domaines
-* Mise en place du loadbalancing
+* Devoir accéder aux applications via des sous-domaines
+* Mise en place d'un loadbalancer
+* Sécuriser les échanges entre le loadbalancer et les applications à l'aide de certificats ssl auto-signés
 
 ## Application
-* Application 1 : YoutubeDownloader qui télecharge des musique en mp3 fait avec golang.
-* Application 2 : WeatherApp et une simple application de météo fait avec flask.
-## Caractéristiques
-* Docker 
-### 1er app : 
+* Application 1 : Youtube Downloader qui télecharge des musique en mp3 fait avec golang.
+* Application 2 : Weather App est une simple application de météo fait avec flask.
+## Caractéristiques techniques
+
+## Technologies et outils utilisées
+### Première application:
+#### Youtube Converter
 - front :
-    - node
+    - Node
+    - React
+    - Next.Js
+    - Tailwind
 - back :
-    - golang
-### 2eme app:
+    - Golang
+    - Youtube-dl
+- Docker
+### Deuxième application:
+#### Weather app
 - front :
-    - flask
+    - Html
+    - Css
 - back :
-    - flask
+    - Python
+    - Flask
+
+## LoadBalancer:
+- Kemp
     
