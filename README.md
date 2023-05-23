@@ -12,4 +12,15 @@ Projet d'infrastructure et réseau réalisé par deux bachelors informatiques en
 * Application 1 : YoutubeDownloader qui télecharge des musique en mp3 fait avec golang.
 * Application 2 : WeatherApp et une simple application de météo fait avec flask.
 ## Caractéristiques
-* 
+* Docker 
+### 1er app : 
+- front :
+    - node
+- back :
+    - golang
+### 2eme app:
+- front :
+    - flask
+- back :
+    - flask
+    
