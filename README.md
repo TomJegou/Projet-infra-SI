@@ -9,7 +9,7 @@ Projet d'infrastructure et réseau réalisé par deux bachelors informatiques en
 * Mise en place du loadbalancing
 
 ## Application
-* Application 1 : YoutubeConvertor qui télecharge des musique en mp3 fait avec golang.
+* Application 1 : YoutubeDownloader qui télecharge des musique en mp3 fait avec golang.
 * Application 2 : WeatherApp et une simple application de météo fait avec flask.
 ## Caractéristiques
 * 
