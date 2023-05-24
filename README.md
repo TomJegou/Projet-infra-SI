@@ -29,10 +29,15 @@ Projet d'infrastructure et réseau réalisé par deux bachelors informatiques en
 - back :
     - Python
     - Flask
-## LoadBalancer:
+
+## LoadBalancer / ReverseProxy :
 - [Kemp](https://freeloadbalancer.com)
 
 ## Virtualisation:
 - Virtual Box
 - Ubuntu
-## Caractéristiques techniques
+## Caractéristiques techniques :
+
+
+## Documentation :
+[Document pour ajouter une application et gestion de certificat](https://github.com/TomJegou/Projet-infra-SI/wiki/)
