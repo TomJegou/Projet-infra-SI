@@ -37,7 +37,8 @@ Projet d'infrastructure et réseau réalisé par deux bachelors informatiques en
 - Virtual Box
 - Ubuntu
 ## Caractéristiques techniques :
-
+Une Vm qui fait tournerau moins deux applications dans des langages différents.
+Une Vm Reverse proxy et Loadbalancer qui va rediriger les requettes vers la bonne application et gerer la gestion de certificats et la gestion de sous-domaines.
 
 ## Documentation :
 [Document pour ajouter une application et gestion de certificat](https://github.com/TomJegou/Projet-infra-SI/wiki/)
