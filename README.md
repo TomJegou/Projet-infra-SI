@@ -6,7 +6,7 @@ Projet d'infrastructure et réseau réalisé par deux bachelors informatiques en
 * Devoir accéder aux applications via des sous-domaines
 * Mise en place d'un loadbalancer
 * Sécuriser les échanges entre le loadbalancer et les applications à l'aide de certificats ssl auto-signés
-## Application
+## Applications
 * Application 1 : Youtube Downloader qui télecharge des musique en mp3 fait avec golang.
 * Application 2 : Weather App est une simple application de météo fait avec flask.
 ## Technologies et outils utilisées
@@ -29,16 +29,16 @@ Projet d'infrastructure et réseau réalisé par deux bachelors informatiques en
 - back :
     - Python
     - Flask
-
 ## LoadBalancer / ReverseProxy :
 - [Kemp](https://freeloadbalancer.com)
-
 ## Virtualisation:
 - Virtual Box
 - Ubuntu
 ## Caractéristiques techniques :
-Une Vm qui fait tournerau moins deux applications dans des langages différents.
-Une Vm Reverse proxy et Loadbalancer qui va rediriger les requettes vers la bonne application et gerer la gestion de certificats et la gestion de sous-domaines.
-
-## Documentation :
-[Document pour ajouter une application et gestion de certificat](https://github.com/TomJegou/Projet-infra-SI/wiki/)
+- Une machine virtuelle sur laquelle tourne au moins deux applications dans des langages différents.
+- Une machine virtuelle avec un Loadbalancer/reverse proxy, qui redirige les requettes vers la bonne application et gérer la gestion de certificats et la gestion de sous-domaines.
+- Le loadbalancer n'a qu'une vip (virtual ip address) avec qu'un seul port d'ouvert qui sert de porte pour les applications.
+- Pour accéder à une application: `https://nom-de-application.ynov.tomyjthebest`
+- Un certificat SSL auto-signé est utilisé pour le protocole `https`
+## Tutoriels :
+Si vous voulez savoir comment mettre en place un system semblable à la maquette, cliquez [ici](https://github.com/TomJegou/Projet-infra-SI/wiki/)
