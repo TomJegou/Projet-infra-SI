@@ -7,7 +7,7 @@ Projet d'infrastructure et réseau réalisé par deux bachelors informatiques en
 * Mise en place d'un loadbalancer
 * Sécuriser les échanges entre le loadbalancer et les applications à l'aide de certificats ssl auto-signés
 ## Tutoriels :
-Si vous voulez savoir comment mettre en place un system semblable à la maquette, ### cliquez [ici](https://github.com/TomJegou/Projet-infra-SI/wiki/)
+Si vous voulez savoir comment mettre en place un system semblable à la maquette, cliquez [ici](https://github.com/TomJegou/Projet-infra-SI/wiki/)
 ## Applications
 * Application 1 : Youtube Downloader qui télecharge des musique en mp3 fait avec golang.
 * Application 2 : Weather App est une simple application de météo fait avec flask.
